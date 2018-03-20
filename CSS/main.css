@@ -1,0 +1,147 @@
+body, html {
+  width: 100%;
+  margin: 0em;
+}
+
+body {
+  font-family: Roboto Slab, sans-serif;
+  font-size: 1em;
+  background: url(../img/colormedium.jpg) center center, #fdf5e6;
+  /* source: https://pixabay.com/en/color-abstract-background-textures-3175055/ @gerald */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header, section, div {
+  box-sizing: border-box;
+}
+h2, h3 {
+  font-weight: bold;
+  color: #a32020;
+  text-decoration: underline #0392cf;
+}
+
+/* header */
+.header {
+  position: relative;
+  height: 130px;
+  width: 100%;
+  border-bottom: 8px double	#0392cf;
+}
+.headerInner {
+  display: flex;
+  height: 125px;
+  justify-content: space-around;
+  background-color: #ffffffab;
+  border: 1px solid #0392cf;
+}
+.headerLogo {
+  height: 120px;
+  vertical-align: center;
+}
+.headerText {
+  display: block;
+  text-align: right;
+  vertical-align: middle;
+}
+.headerTitle {
+  font-family: Rammetto One;
+  font-size: 2em;
+  color: #0392cf;
+}
+.status {
+  font-family: Rammetto One;
+  font-size: 1.2em;
+}
+
+/* sidebar*/
+.sidebar {
+  display: block;
+  width: 30%;
+  height: 100%;
+  padding-right: 1em;
+  float: left;
+  position: relative;
+  align-content: center;
+}
+.sidebarTitle {
+  font-size: 1.2em;
+  text-align: center;
+  vertical-align: middle;
+  margin: 2em;
+  background-color: #ffffffab;
+  border: 1px solid #0392cf;
+}
+.item {
+  display: block;
+}
+.logo {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 1em;
+}
+/* main content */
+.container {
+  display: block;
+  position: relative;
+  width: 70%;
+  float: right;
+}
+.hello {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #a32020;
+}
+.content {
+  display: block;
+  padding-top: 5em;
+  padding: 1em;
+  text-align: justify;
+  margin: 2em;
+  background-color: #ffffffab;
+  border: 1px solid #0392cf;
+  }
+
+/* portofolio*/
+.portofolio {
+  display: block;
+}
+.portofolioTitle{
+  display: block;
+  font-size: 1.2em;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1.8em;
+  background-color: #ffffffab;
+  border: 1px solid #0392cf;
+}
+.project {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: #ffffffab;
+  border: 1px solid #0392cf;
+  margin: 2em;
+  }
+.preview {
+  max-width: 50%;
+  max-height: 300px;
+  float: left;
+  padding: 0.5em;
+  object-fit: contain;
+  }
+.description {
+  display: block;
+  min-width: 50%;
+  align-content: center;
+  padding: 0.5em;
+}
+.title {
+  text-align: center;
+  padding-bottom: 0.8em;
+}
+p {
+  text-align: justify;
+  padding-bottom: 0.8em;
+}
